@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
@@ -14,6 +16,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos {
+    display: none;
+}
 
 
 
@@ -21,11 +26,26 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioTres{
+    position: relative;
+    left: 200px;
+    top: 100px;
+
+}
+
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+
+#ejercicioCuatro {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
 
 
 
@@ -33,6 +53,90 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 
 /* Ejercicio 6. */
+
+#ejercicioCinco {
+    flex-flow: row-reverse;
+}
+
+
+#ejercicioSiete {
+    filter: contrast(30);
+	background: #fff;
+}
+
+#elementoUno {
+    display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: blue;
+	margin: 40px;
+	border-radius: 50%;
+	filter: blur(20px);
+}
+
+#elementoDos {
+    display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: blue;
+	margin: 40px;
+	border-radius: 50%;
+	filter: blur(20px);
+}
+
+#elementoTres {
+    display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: red;
+	margin: 40px;
+	border-radius: 50%;
+	filter: blur(20px);
+    align-items: center;
+    margin-top: 200px;
+}
+
+#elementoCuatro {
+    display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: red;
+	margin: 40px;
+	border-radius: 50%;
+	filter: blur(20px);
+    margin-top: 200px;
+}
+
+#elementoUno {
+    animation: trasladar 2s alternate infinite;
+}
+@keyframes trasladar {
+	0% {
+		transform: translate(0);
+	}
+	100% {
+		transform: translate(160px);
+	}
+}
+
+#elementoTres{
+    animation: trasladar 2s alternate infinite;
+}
+@keyframes trasladar {
+	0% {
+		transform: translate(160px);
+	}
+	100% {
+		transform: translate(0);
+	}
+}
